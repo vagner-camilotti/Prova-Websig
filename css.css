@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /*background-image:url("./fundo.jpg");*/
+    background-image: url(https://raw.githubusercontent.com/vagner-camilotti/Prova-Websig/d1d2a5b1693f6c14eecfd6d8e0c6903f7e444292/fundo.jpg);
+    background-size:cover;
+    /*background-color: aqua;*/
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Rufina', serif;
+    font-size: 14;
+}
+
+#caixa-maior{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#cacaca;
+    border-radius:20px;
+    border: 5px solid;
+    margin-top:10px;
+    padding:10px;
+    border-color:#a1a1a1;
+    overflow-wrap: break-word;
+}
+
+#caixa-menor{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    border: 1px solid;
+    border-color: #a5a5a5;
+    border-radius:5px;
+    padding: 20px;
+    margin: 5px;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-color: #a5a5a5;
+    border-radius:5px;
+    padding: 10px;
+    margin: px;
+    width: px;
+    font-family: 'Rufina', serif;
+    font-size: 25;
+}
+
+#dados{
+    padding:1 px;
+    border:1px solid; 
+    border-color:#a5a5a5; 
+    border-radius:5px;
+    margin-top: 1px;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: px;
+    width: px;
+
+}
+
+#status, #hora-out, #hora-in, #data, #id{
+    width: 100px;
+    margin: 1px;
+    padding: 1px;
+}
+
+#descricao{
+    width: 300px;
+    margin: 1px;
+    padding: 1px;
+}
+
+#infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-color: #a5a5a5;
+    border-radius:5px;
+    padding: 0px;
+    margin: 5px;
+    width: px;
+}
+
+.infos{
+display: flex;
+justify-content: left;
+align-items: left;
+
+}
+.campos{
+    padding: 1px;
+}
+
+.entrada {
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 90px;
+}
+
+.label {
+    width: 150px;
+}
+
+#result{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+}

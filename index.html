@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css.css">
+        <title>Prova Final</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="caixa-maior">
+            <div id="caixa-menor">
+                <div id="titulo">CADASTRO DE EVENTOS</div>
+                <div id="dados">
+                    <div class="entrada">
+                        <div class="label">ID:</div>
+                        <input id="id" type="text" />
+                    </div>
+                    <div class="entrada"><div class="label">Data:</div><input id="data" type="date" /></div>
+                    <div class="entrada"><div class="label">Horário de início:</div><input id="hora-in" type="time" /></div>
+                    <div class="entrada"><div class="label">Horário de término:</div><input id="hora-out" type="time" /></div>
+                    <div class="entrada"><div class="label">Descrição:</div><input id="descricao" type="text" /></div>
+                    <div class="entrada"><div class="label">Status:</div><input id="status" type="text" /></div>
+                </div>
+                <div id="botoes">
+                    <button id="adiciona">Adicionar evento</button>
+                    <button id="procura">Procurar evento</button>
+                    <button id="todos"> Lista de eventos</button>
+                    <button id="altera">Alterar evento</button>
+                    <button id="atualiza">Alterar status</button>
+                    <button id="remove">Remover evento</button>
+                </div>
+            </div>
+            <div id="infos">
+                <div class="infos"> INFORMAÇÕES</div>
+                <div>
+                    <div class="infos">1. Para atualizar o status do evento, apenas informe o ID e o novo status.</div>
+                    <div class="infos">2. Para procurar um evento, apenas informe o ID.</div>
+                </div>
+            </div>
+            <div id="infos">
+                <div>LISTA DE EVENTOS</div>
+                <div id="result"></div>
+            </div>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="./jquery.js" type="module"></script>
+    </body>
+</html>
