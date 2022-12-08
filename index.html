@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css.css">
+        <title>Prova Final</title>
+        
+    </head>
+    <body>
+        <div id="caixa-maior">
+            <div id="caixa-menor">
+                <div id="dados">
+                    <div class="campos">
+                        <span>Id:</span>
+                        <input id="id" type="text" />
+                    </div>
+                    <div class="campos">
+                        <span>Data:</span>
+                        <input id="data" type="date" />
+                    </div>
+                    <div class="campos">
+                        <span>Horário de início:</span>
+                        <input id="hora-in" type="time" />
+                    </div>
+                    <div class="campos">
+                        <span>Horário de término:</span>
+                        <input id="hora-out" type="time" />
+                    </div>
+                    <div class="campos">
+                        <span>Descrição:</span>
+                        <input id="descricao" type="text" />
+                    </div>
+                    <div class="campos">
+                        <span>Status:</span>
+                        <input id="status" type="text" />
+                    </div>
+                </div>
+                <div id="botoes">
+                    <button id="adiciona">Adicionar evento</button>
+                    <button id="procura">Procurar evento</button>
+                    <button id="todos"> Lista de eventos</button>
+                    <button id="altera">Alterar evento</button>
+                    <button id="atualiza">Alterar status</button>
+                    <button id="remove">Remover evento</button>
+                </div>
+            </div>
+            <div id="infos">
+                <div class="infos"> INFORMAÇÕES</div>
+                <div class="infos">Para atualizar o status do evento, apenas informe o ID e o novo status.</div>
+            </div>
+            <div id="result"></div>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="./prog2.js" type="module"></script>
+    </body>
+</html>
